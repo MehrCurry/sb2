@@ -1,0 +1,22 @@
+# Testing new stuff
+
+This project my little playgroud to test some now things:
+
+* Java 9/10
+* Spring Boot 2
+* Prometheues 2
+* Grafana 5
+
+and some more.
+
+## Run
+[source]
+----
+./gradlew clean build docker
+docker-compose up
+----
+
+## Know Issues
+
+The gradle docker build has some name problems with the jar
+
