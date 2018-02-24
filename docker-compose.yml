@@ -104,3 +104,15 @@ services:
       - back-tier
       - front-tier
     restart: always
+
+  unsee:
+    image: cloudflare/unsee
+    depends_on:
+      - alertmanager
+    environment:
+      ALERTMANAGER_URI: http://alertmanager:9093
+    ports:
+      - 28080:8080
+    networks:
+      - back-tier
+      - front-tier

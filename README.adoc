@@ -16,6 +16,20 @@ and some more.
 docker-compose up
 ----
 
+## Services
+
+* Application: http://localhost:8080/greeting
+* Actuator: http://localhost:8080/actuator
+* Prometheus: http://localhost:9090
+* Alertmanager: http://localhost:9093
+* Cadvisor: http://localhost:18080
+* NodeExporter: http://localhost:9100
+* Unsee: http://localhost:28080
+* Prometheus: http://localhost:9090
+* Grafana: http://localhost:3000 (admin/foobar)
+
+
+
 ## Know Issues
 
 The gradle docker build has some name problems with the jar
