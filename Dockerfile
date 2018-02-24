@@ -1,5 +1,4 @@
 FROM openjdk:9-jre
 VOLUME /tmp
-ARG JAR_FILE
-ADD build/libs/${JAR_FILE} app.jar
+ADD demosb2-0.0.1-SNAPSHOT.jar app.jar
 ENTRYPOINT ["java","-Djava.security.egd=file:/dev/./urandom","-XX:+UnlockExperimentalVMOptions","-XX:+UseCGroupMemoryLimitForHeap","-jar","/app.jar"]

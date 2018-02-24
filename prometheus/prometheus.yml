@@ -71,4 +71,4 @@ scrape_configs:
     - names:
       - 'greeting'
       type: 'A'
-      port: 8081
+      port: 8080
