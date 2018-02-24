@@ -2,7 +2,7 @@
 
 This project my little playgroud to test some now things:
 
-* Java 9/10
+* Java 10
 * Spring Boot 2
 * Prometheues 2
 * Grafana 5
